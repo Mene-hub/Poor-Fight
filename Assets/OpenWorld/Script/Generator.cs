@@ -34,7 +34,7 @@ public class Generator : MonoBehaviour
         x = -11;
         //randomizzo la posizione 0 di spawn
         y += new System.Random().Next(-3, 2);
-        //Instantiate(WorldBlocks[0], new Vector3(x, y, 0), rotate);;
+        //Instantiate(WorldBlocks[0], new Vector3(x, y, 0), rotate);
     }
 
     // Update is called once per frame
